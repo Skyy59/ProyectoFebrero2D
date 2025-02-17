@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8376281689696851795}
   - component: {fileID: 4345099691417630445}
   - component: {fileID: 7248927253038030853}
+  - component: {fileID: 2850840680711806170}
   - component: {fileID: 798934571203301441}
   m_Layer: 7
   m_Name: Player
@@ -119,21 +120,38 @@ MonoBehaviour:
   tr: {fileID: 0}
   speed: 8
   jumpingPower: 16
-  dashingPower: 24
+  dashingPower: 10
   dashingTime: 0.2
   dashingCooldown: 1
   wallJumpingTime: 0.2
+  wallJumpingDuration: 0.4
   wallSlidingSpeed: 2
   coyoteTime: 0.2
   jumpBufferTime: 0.1
   GCheck: {fileID: 7426215809978802607}
+  GCheckSize: {x: 0.49, y: 0.03}
   Ground:
     serializedVersion: 2
     m_Bits: 128
   WCheck: {fileID: 5507646473088470751}
+  WCheckSize: {x: 0.08, y: 0.7}
   Walls:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &2850840680711806170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853231033091216720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4968f923320a4e34a9f1f4ac0956170b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprRender: {fileID: 5137367686636358131}
+  Rb: {fileID: 4345099691417630445}
 --- !u!96 &798934571203301441
 TrailRenderer:
   serializedVersion: 3

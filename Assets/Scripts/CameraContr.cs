@@ -17,7 +17,7 @@ public class Camera : MonoBehaviour
         transform.position = new Vector3(player.transform.position.x, player.transform.position.y, transform.position.z);
 
 
-        ////Using DoTween for smoother transition into cameras
+        //Using DoTween for smoother transition into cameras
         //if (Input.GetKey(KeyCode.S))
         //{
         //    transform.position = new Vector3(player.transform.position.x, player.transform.position.y - 1f, transform.position.z);

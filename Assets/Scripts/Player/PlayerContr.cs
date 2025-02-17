@@ -18,26 +18,23 @@ public class PlayerContr : MonoBehaviour
     [Header("Jump")]
     public float speed = 8f;
     public float jumpingPower = 16f;
-    [Space(5)]
-    [SerializeField] private bool inAir;
-    [SerializeField] private int maxJumps = 2;
-    [SerializeField] private int remainingJumps;
+
     
 
     [Header("Dash")]
-    public float dashingPower = 24f;
-    public float dashingTime = 0.2f;
-    public float dashingCooldown = 1f;
+    [SerializeField] private float dashingPower = 24f;
+    [SerializeField] private float dashingTime = 0.2f;
+    [SerializeField] private float dashingCooldown = 1f;
     private bool dash = true;
     private bool isDashing;
 
 
     [Header("WallSlide & WallJump")]
-    public float wallJumpingTime = 0.2f;
+    [SerializeField] private float wallJumpingTime = 0.2f;
     private bool isWallJumping;
     private float wallJumpingDirection;
     private float wallJumpCounter;
-    private float wallJumpingDuration = 0.4f;
+    [SerializeField] private float wallJumpingDuration = 0.4f;
     private Vector2 wallJumpingPower = new Vector2(8f, 16f);
 
     [Space(5)]
@@ -93,17 +90,6 @@ public class PlayerContr : MonoBehaviour
 
         #endregion
 
-        #region CHECKS
-        if (isGrounded() == true)
-        {
-            inAir = false;
-
-            remainingJumps = maxJumps;
-        }
-
-        
-
-        #endregion
     }
 
     void FixedUpdate()
@@ -116,23 +102,19 @@ public class PlayerContr : MonoBehaviour
         if (!isWallJumping)
             rb.linearVelocity = new Vector2(horz * speed, rb.linearVelocity.y);
     }
-    
 
-    
     
     #region MECHANICS 
     void Jump()
     {
-        if(remainingJumps > 0)
-        {
+
 
             if (jBufferCounter > 0f && cTimeCoutner > 0f)
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
                 jBufferCounter = 0f;
 
-                inAir = true;
-                remainingJumps--;
+             
             }
 
 
@@ -145,7 +127,6 @@ public class PlayerContr : MonoBehaviour
             }
 
 
-        }
 
        
 
@@ -219,7 +200,7 @@ public class PlayerContr : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jBufferCounter = jumpBufferTime;
-            remainingJumps--;
+            
         }
         else
         {
