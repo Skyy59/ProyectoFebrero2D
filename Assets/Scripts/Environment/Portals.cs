@@ -5,14 +5,18 @@ using System;
 
 public class Portals : MonoBehaviour
 {
-    public Transform ptr; 
+    public Transform ptr;
     private bool isontrigger;
-    public Animation anim;
+    public Animator anim;
     public Rigidbody2D playerRb;
     public Transform PortalOut;
-  
     
-   
+
+
+    private void Awake()
+    {
+        
+    }
 
     void Start()
     {
@@ -33,14 +37,15 @@ public class Portals : MonoBehaviour
     IEnumerator PortalIn()
     {
         playerRb.simulated = false;
-        anim.Play("PortalIn");
+        anim.SetTrigger("isInPortal");
         StartCoroutine(MoveInPortal());
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.8f);
         ptr.position = PortalOut.position;
         playerRb.linearVelocity = Vector2.zero;
-        anim.Play("PortalOut");
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1f);
         playerRb.simulated = true;
+        
+        
     }
 
     IEnumerator MoveInPortal()

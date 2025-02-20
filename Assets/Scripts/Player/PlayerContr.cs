@@ -172,7 +172,7 @@ public class PlayerContr : MonoBehaviour
     }
     private void WallSlide()
     {
-        if (isWalled() && !isGrounded() && horz != 0f)
+        if (IsWalled() && !IsGrounded() && horz != 0f)
         {
             isWallSliding = true;
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, Mathf.Clamp(rb.linearVelocity.y, -wallSlidingSpeed, float.MaxValue));
@@ -185,7 +185,7 @@ public class PlayerContr : MonoBehaviour
 
     void CoyoteTime()
     {
-        if (isGrounded())
+        if (IsGrounded())
         {
             cTimeCoutner = coyoteTime;
         }
@@ -241,14 +241,14 @@ public class PlayerContr : MonoBehaviour
 
 
     //Checks if box overlaps with the ground layer and returns a bool
-    private bool isGrounded()
+    private bool IsGrounded()
     {
         return Physics2D.OverlapBox(GCheck.position, GCheckSize, 0, Ground);
     
     }
 
     //Checks if box overlaps with the wall layer and returns a bool
-    private bool isWalled()
+    private bool IsWalled()
     {
         return Physics2D.OverlapCircle(WCheck.position, 0.2f, Walls);
     }
