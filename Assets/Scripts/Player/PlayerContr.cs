@@ -10,6 +10,7 @@ public class PlayerContr : MonoBehaviour
     [Header("Components")]
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] TrailRenderer tr;
+    [SerializeField] Animator cAnimator;
 
     //movement
     private float horz;
@@ -82,6 +83,7 @@ public class PlayerContr : MonoBehaviour
         WallJump();
         WallSlide();
         Jump();
+        Animations();
 
         if(!isWallJumping)
         {
@@ -90,6 +92,45 @@ public class PlayerContr : MonoBehaviour
 
         #endregion
 
+        #region CHECKS
+        if (IsGrounded())
+        {
+            cAnimator.SetBool("Jump", false);
+            cAnimator.SetBool("Fall", false);
+        }
+        else
+        {
+            cAnimator.SetBool("Jump", true);
+        }
+
+        if (!IsGrounded() && rb.linearVelocity.y < 0)
+        {
+            cAnimator.SetBool("Fall", true);
+            cAnimator.SetBool("Jump", false);
+        }
+
+
+        if (IsWalled() == true)
+        {
+            cAnimator.SetBool("WallStick", true );
+            cAnimator.SetBool("Jump", false);
+        }
+        else
+        {
+            cAnimator.SetBool("WallStick", false);
+        }
+
+        if (isWallJumping == true)
+        {
+            cAnimator.SetBool("isWallJumping", true);
+            cAnimator.SetBool("Jump", false);
+            cAnimator.SetBool("Fall", false);
+        }
+        else
+        {
+            cAnimator.SetBool("isWallJumping", false);
+        }
+        #endregion 
     }
 
     void FixedUpdate()
@@ -113,6 +154,7 @@ public class PlayerContr : MonoBehaviour
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
                 jBufferCounter = 0f;
+                
 
              
             }
@@ -139,6 +181,7 @@ public class PlayerContr : MonoBehaviour
             isWallJumping = false;
             wallJumpingDirection = -transform.localScale.x;
             wallJumpCounter = wallJumpingTime;
+            
 
             CancelInvoke(nameof(StopWallJumping));
         }
@@ -152,6 +195,7 @@ public class PlayerContr : MonoBehaviour
             isWallJumping = true;
             rb.linearVelocity = new Vector2(wallJumpingDirection * wallJumpingPower.x, wallJumpingPower.y);
             wallJumpCounter = 0f;
+            
 
             if (transform.localScale.x != wallJumpingDirection)
             {
@@ -169,6 +213,7 @@ public class PlayerContr : MonoBehaviour
     private void StopWallJumping()
     {
         isWallJumping = false;
+        
     }
     private void WallSlide()
     {
@@ -176,10 +221,12 @@ public class PlayerContr : MonoBehaviour
         {
             isWallSliding = true;
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, Mathf.Clamp(rb.linearVelocity.y, -wallSlidingSpeed, float.MaxValue));
+     
         }
         else
         {
             isWallSliding = false;
+            
         }
     }
 
@@ -188,6 +235,7 @@ public class PlayerContr : MonoBehaviour
         if (IsGrounded())
         {
             cTimeCoutner = coyoteTime;
+            
         }
         else
         {
@@ -210,6 +258,8 @@ public class PlayerContr : MonoBehaviour
 
     private IEnumerator Dash()
     {
+        cAnimator.SetBool("Jump", false);
+        cAnimator.SetBool("isDashing", true);
         dash = false;
         isDashing = true;
         float originalGravity = rb.gravityScale;
@@ -217,6 +267,7 @@ public class PlayerContr : MonoBehaviour
         rb.linearVelocity = new Vector2(transform.localScale.x * dashingPower, 0f);
         tr.emitting = true;
         yield return new WaitForSeconds(dashingTime);
+        cAnimator.SetBool("isDashing", false);
         tr.emitting = false;
         rb.gravityScale = originalGravity;
         isDashing = false;
@@ -244,8 +295,11 @@ public class PlayerContr : MonoBehaviour
     private bool IsGrounded()
     {
         return Physics2D.OverlapBox(GCheck.position, GCheckSize, 0, Ground);
-    
+        
+
     }
+
+
 
     //Checks if box overlaps with the wall layer and returns a bool
     private bool IsWalled()
@@ -253,6 +307,12 @@ public class PlayerContr : MonoBehaviour
         return Physics2D.OverlapCircle(WCheck.position, 0.2f, Walls);
     }
 
+    void Animations()
+    {
+        cAnimator.SetFloat("Speed", Mathf.Abs(rb.linearVelocity.x));
+
+
+    }
     #endregion
 
 

@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using System;
+using UnityEditor.Animations;
 
 public class Portals : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class Portals : MonoBehaviour
     public Animator anim;
     public Rigidbody2D playerRb;
     public Transform PortalOut;
-    
+    public Animator cAnim;
 
 
     private void Awake()
@@ -38,8 +39,10 @@ public class Portals : MonoBehaviour
     {
         playerRb.simulated = false;
         anim.SetTrigger("isInPortal");
+        cAnim.SetBool("Fall", false);
+        cAnim.SetBool("Jump", false);
         StartCoroutine(MoveInPortal());
-        yield return new WaitForSeconds(0.8f);
+        yield return new WaitForSeconds(1.5f);
         ptr.position = PortalOut.position;
         playerRb.linearVelocity = Vector2.zero;
         yield return new WaitForSeconds(1f);
