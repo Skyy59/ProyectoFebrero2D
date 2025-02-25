@@ -6,6 +6,9 @@ public class Platforms : MonoBehaviour
     public Transform waypoint1;
     public Transform waypoint2;
 
+    public float timetravelling;
+    public float delay;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -14,9 +17,9 @@ public class Platforms : MonoBehaviour
 
     void PlatformMove()
     {
-        transform.DOMove(waypoint2.position, 5f).SetDelay(1f).SetEase(Ease.Linear).OnComplete(() =>
+        transform.DOMove(waypoint2.position, timetravelling).SetDelay(delay).SetEase(Ease.Linear).OnComplete(() =>
         {
-            transform.DOMove(waypoint1.position, 5f).SetDelay(1f).SetEase(Ease.Linear).OnComplete(() =>
+            transform.DOMove(waypoint1.position, timetravelling).SetDelay(delay).SetEase(Ease.Linear).OnComplete(() =>
             {
                 PlatformMove();
             });
