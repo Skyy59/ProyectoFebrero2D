@@ -1,0 +1,2613 @@
+fileFormatVersion: 2
+guid: 7c6cb04803cfd404586e7ca60e9e3528
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8147519563262968042
+    second: tilemap final genocida_0
+  - first:
+      213: 1443384148387605900
+    second: tilemap final genocida_1
+  - first:
+      213: 3424911657357142659
+    second: tilemap final genocida_2
+  - first:
+      213: 170584141344954172
+    second: tilemap final genocida_3
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tilemap final genocida_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 380
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f3a27ef123eee80800000000000000
+      internalID: -8147519563262968042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 380
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8da21f4c3ee70410800000000000000
+      internalID: 1443384148387605900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 380
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38aedd3a10bb78f20800000000000000
+      internalID: 3424911657357142659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_3
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 380
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c375e2d6f590e5200800000000000000
+      internalID: 170584141344954172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 380
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca85b492cca32c4ab23e25af65be3c0
+      internalID: -1072106344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 380
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc80955683a18046b03200b0faaebb2
+      internalID: 1735728148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_6
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 380
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f894d37739192c84fb5e4a378276cd8d
+      internalID: 496892491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_7
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 380
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a0fad1f6d79cb41ac01017b38a02d0
+      internalID: 271663920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 380
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f108f51bfc0c344b911a6d89fcbf73
+      internalID: -1451865729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_9
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 380
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d3546940f704e4992593349548d841
+      internalID: 1247819085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_10
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 380
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbff7297c020914b93429087d6ebbf3
+      internalID: -329764353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fe2649f6ec52b439aee88423b84e2f
+      internalID: -1367637343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_12
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 350
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61473bacfc348145b2439fa474329c0
+      internalID: -1461788070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_13
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 350
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd2c1c9291932c4ab8794ac9bdd9ef9
+      internalID: 159552138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_14
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 350
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0ce0b0fcaa5d24bbc72bdbd33a16a7
+      internalID: -135854813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_15
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 350
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f172b920230644580cca4ed307bdfd
+      internalID: -1631582819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_16
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 350
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13dbe9f564b683b4b822492198ec09d7
+      internalID: -153317523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_17
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 350
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614ae3a4af5a3684295791cbd19117d2
+      internalID: 365988691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_18
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 350
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5c10901cbc7ff4884c911095b45055
+      internalID: 698055623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 350
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261e2e1f0383d014f8a42c34db10823a
+      internalID: -580189868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_20
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 350
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edb05a99fe1b6b4b8af252bfa3320fc
+      internalID: -2091395503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_21
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 350
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d07f7921c78e9449bb7780ee353f345
+      internalID: -1311000863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d172eba32b40334db4954a76e012296
+      internalID: -351510419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_23
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 320
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcd65b61a0d1f54399b12add54d492b
+      internalID: 658629737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_24
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 320
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fe8c0e9da183c4eb34ad4f821aea25
+      internalID: 794118210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_25
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 320
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0213efa08f59dbe4e8d20a6268be9353
+      internalID: -952896264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_26
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 320
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba189dbf2913a34885105a273b578e0
+      internalID: 156555444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_27
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 320
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5689450bac9cb43aa8299ca08cf17d
+      internalID: -1760056130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_28
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 320
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8865d9a869e804ca0ea185c2d43930
+      internalID: 2042459527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_29
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 320
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed95156ba674e14dabb1d84d46f1028
+      internalID: 447751357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_30
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80818fab9c00efd4684980805f4f498f
+      internalID: 2048103258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_31
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 320
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f062dad7375b243b51159691ad1ce3
+      internalID: 833769116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_32
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 320
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749b47ac553ef694393e825f94ed780c
+      internalID: 1061090792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0c4cdc9e732fb45a88e46d6e0d5fd4
+      internalID: -339930515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_34
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 290
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3792172a2eab6fb46889e78e0712f9b0
+      internalID: -720860357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_35
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 290
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce50b353b3f8c247a5f102b744e7f4c
+      internalID: 2109309480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_36
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 290
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd323c095d82f5d4b8daa8387426fee7
+      internalID: 1368789580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_37
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 290
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174fdecfd5f64714ba9e3de7b15772a8
+      internalID: 988945492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_38
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 290
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d047b19512974fa4ab7585898e66a096
+      internalID: 1616534850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_39
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 290
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d53eccae307efd48874a27f19baa822
+      internalID: -266222761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_40
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 290
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338170ef280a6c3429f8dc87b1898882
+      internalID: -88683460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_41
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 290
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602a29d606faa89498b247ddb8542778
+      internalID: 36824152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_42
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 290
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79701cf7dcbd5c140ab3998ec025b8ab
+      internalID: -1714790214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d57ca3f10703804686fa7cdfb8f379b
+      internalID: 1059924317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_44
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 260
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09336c0964e28d04d8799472d6493fe6
+      internalID: -1064101734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_45
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 260
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528922d294c2eb845a69395679c50846
+      internalID: -91937314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_46
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 260
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f79b165ba4e4fe4db48a9aa283f9e6b
+      internalID: 1323834125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_47
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 260
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa3ce227486de443a3e1f05c573346d
+      internalID: -834875308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_48
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 260
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c10c563a9b381b4cb87c5b33f7750a7
+      internalID: -1354599125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_49
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 260
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a1085db6af8d54f8e81a3af9336249
+      internalID: -2013963880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_50
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 260
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e693f051c5a00b40a09561d5452fb5d
+      internalID: 1097056915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b87610bd6670747ae650ab85f9308c
+      internalID: -1441310415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_52
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 230
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837ddb1937838d045ac601d191316ecc
+      internalID: -1909841125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_53
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 230
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cef70c1ae699144a6d9ec3d6080c16
+      internalID: 1623542532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_54
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 230
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b25372aff247a84d8bff1f401afe33e
+      internalID: -58328730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_55
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 230
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa20ad91a17c1c45a9d18266175621a
+      internalID: 821781412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_56
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 230
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a607e9bd38248d409d90e568b55d524
+      internalID: 989220793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_57
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 230
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bab4703e184dab439f9628530ceeb2d
+      internalID: -1885852396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_58
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 230
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b75c47779fc1541900a3a3eb42b77c
+      internalID: 1197160789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_59
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 230
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb40329380739a24d85af3cfe56e3791
+      internalID: 79866683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89401852f440ff54dac35b4eb934f875
+      internalID: -1292584715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_61
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 200
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ef0e598f88ffe46872fa17be9c0d6c
+      internalID: -1656160968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_62
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 200
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a077e5109887c408f60e3f2abfbbac
+      internalID: 1792358852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_63
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 200
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fecf6523290c4b4392bf60a97a1555f
+      internalID: 1563967602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_64
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 200
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33247879c44525747bd5fe83605ca463
+      internalID: 976864910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_65
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 200
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77ea41aa20265f48a00929f62238d17
+      internalID: -628204824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_66
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 200
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a69e1467df13634ca9ba26a9cbf5069
+      internalID: -1252807015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_67
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 170
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267fe16de0e73b44ebd98311e8f718b3
+      internalID: 1553575580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_68
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 170
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3642d3e141cdff148a6b58660fdb6b76
+      internalID: -1778463581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_69
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 140
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9ee52afa6a79943aff2553b1adc131
+      internalID: -191432332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_70
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 140
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e972570d21d6343be5c907cb210bb0
+      internalID: 1308527392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_71
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 110
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dbbc9dc7cc3e346b90916536395ee6
+      internalID: -304274510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_72
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 110
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f58b947ab5a8964483872dbc88e656a
+      internalID: -512243798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_73
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 110
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f50f9eb78c8e8458ffe07721b52d59
+      internalID: -1142432292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_74
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 110
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a9317daf8609741b8830b25560b970
+      internalID: 1201676687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_75
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 110
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1cb24af1aa4ee4ab65506a19c290da
+      internalID: -803175934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_76
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 110
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da9b57dd7516194fb9cbe8662b0c0ab
+      internalID: 1917913483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_77
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 110
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf62cd7560722e34880556512aa93d12
+      internalID: -1938504736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_78
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 110
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df01d43f36b035b42aeaf7489cab3491
+      internalID: 855546073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_79
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 110
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bc58e4ab2c85143813ac04bce21554
+      internalID: -1426002709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_80
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 110
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b848039c9fb605a40891afb08d39a187
+      internalID: -911108674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_81
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 80
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01abeff3222782d418ca1e54ab05388f
+      internalID: -1814015627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_82
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 80
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec99112938d33cf4785f2cb9417d2a57
+      internalID: -1769271062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_83
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 80
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad25b676e5c69c443a0a30be8eb0ab31
+      internalID: 1353575963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_84
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 80
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cbb4635c0ec034fb1a0e46fe8a457e
+      internalID: -528433499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_85
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 80
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7190c3925df7446801bb52a2edaf33
+      internalID: -1777456355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_86
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 50
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d14b40dd09a23c4f9996829e4e7ef91
+      internalID: 1397665132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_87
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 50
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc20a7b9d03ced74c96d3bb5296d1487
+      internalID: 1418309404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_88
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 50
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac4a9d445bc6be4db6943d69527b83a
+      internalID: 342455847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_89
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 50
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d78ee719a35ee409616f214a6466cb
+      internalID: -1086290409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_90
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 50
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434200f742889094284a3a24d3da328e
+      internalID: -1974838233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_91
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 50
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08343aab0cebb6f459af047b586c5d67
+      internalID: -1667617580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_92
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 50
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d566eb8a15548d44b587444c8158eca
+      internalID: -1331710522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_93
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 50
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4d473954479fc4790e3fb4135356c0
+      internalID: -2004980690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_94
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 50
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555787c9ae3e86646af98b147819c7a7
+      internalID: 695927810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_95
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 50
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51247d49376ea4947a6163ad9cefacb2
+      internalID: -647037840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_96
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 50
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6f6761a8d64fd4f875d954c143efe5
+      internalID: 293956622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_97
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 20
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af24342a6c4401478b2d60fc227d26f
+      internalID: 1051393088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_98
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 20
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec5e4c9ebcc8f948a1a2ce15bec6eb0
+      internalID: 578649877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_99
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 20
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a40f4890447bc4baba5b99914266d0
+      internalID: -124408957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_100
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 20
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545787522b0e1e44397168b26abb465c
+      internalID: 1926987666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_101
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 20
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29470104f560f6945a3c3fa85062e854
+      internalID: 891888769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_102
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 20
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03e78244677fab4082ebf2cc19704be
+      internalID: 1204860735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_103
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 20
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ccfca0ab70b0d4eae4b063d0efdf2b
+      internalID: 1425753720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_104
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 20
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67a1f20763954d4aa69809d0d0de6b6
+      internalID: -29592159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_105
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 20
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3085ddf957b1544a5033371d31295b
+      internalID: 1861539770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_106
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 20
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01e9038949f4074f9b40b8c3f478558
+      internalID: -1965636946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilemap final genocida_107
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 20
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9e40473314db74880ae32383bbbd55
+      internalID: -388007684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 62541adfda8f28d4fa48fa586ff50460
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tilemap final genocida_0: -8147519563262968042
+      tilemap final genocida_1: 1443384148387605900
+      tilemap final genocida_10: -329764353
+      tilemap final genocida_100: 1926987666
+      tilemap final genocida_101: 891888769
+      tilemap final genocida_102: 1204860735
+      tilemap final genocida_103: 1425753720
+      tilemap final genocida_104: -29592159
+      tilemap final genocida_105: 1861539770
+      tilemap final genocida_106: -1965636946
+      tilemap final genocida_107: -388007684
+      tilemap final genocida_11: -1367637343
+      tilemap final genocida_12: -1461788070
+      tilemap final genocida_13: 159552138
+      tilemap final genocida_14: -135854813
+      tilemap final genocida_15: -1631582819
+      tilemap final genocida_16: -153317523
+      tilemap final genocida_17: 365988691
+      tilemap final genocida_18: 698055623
+      tilemap final genocida_19: -580189868
+      tilemap final genocida_2: 3424911657357142659
+      tilemap final genocida_20: -2091395503
+      tilemap final genocida_21: -1311000863
+      tilemap final genocida_22: -351510419
+      tilemap final genocida_23: 658629737
+      tilemap final genocida_24: 794118210
+      tilemap final genocida_25: -952896264
+      tilemap final genocida_26: 156555444
+      tilemap final genocida_27: -1760056130
+      tilemap final genocida_28: 2042459527
+      tilemap final genocida_29: 447751357
+      tilemap final genocida_3: 170584141344954172
+      tilemap final genocida_30: 2048103258
+      tilemap final genocida_31: 833769116
+      tilemap final genocida_32: 1061090792
+      tilemap final genocida_33: -339930515
+      tilemap final genocida_34: -720860357
+      tilemap final genocida_35: 2109309480
+      tilemap final genocida_36: 1368789580
+      tilemap final genocida_37: 988945492
+      tilemap final genocida_38: 1616534850
+      tilemap final genocida_39: -266222761
+      tilemap final genocida_4: -1072106344
+      tilemap final genocida_40: -88683460
+      tilemap final genocida_41: 36824152
+      tilemap final genocida_42: -1714790214
+      tilemap final genocida_43: 1059924317
+      tilemap final genocida_44: -1064101734
+      tilemap final genocida_45: -91937314
+      tilemap final genocida_46: 1323834125
+      tilemap final genocida_47: -834875308
+      tilemap final genocida_48: -1354599125
+      tilemap final genocida_49: -2013963880
+      tilemap final genocida_5: 1735728148
+      tilemap final genocida_50: 1097056915
+      tilemap final genocida_51: -1441310415
+      tilemap final genocida_52: -1909841125
+      tilemap final genocida_53: 1623542532
+      tilemap final genocida_54: -58328730
+      tilemap final genocida_55: 821781412
+      tilemap final genocida_56: 989220793
+      tilemap final genocida_57: -1885852396
+      tilemap final genocida_58: 1197160789
+      tilemap final genocida_59: 79866683
+      tilemap final genocida_6: 496892491
+      tilemap final genocida_60: -1292584715
+      tilemap final genocida_61: -1656160968
+      tilemap final genocida_62: 1792358852
+      tilemap final genocida_63: 1563967602
+      tilemap final genocida_64: 976864910
+      tilemap final genocida_65: -628204824
+      tilemap final genocida_66: -1252807015
+      tilemap final genocida_67: 1553575580
+      tilemap final genocida_68: -1778463581
+      tilemap final genocida_69: -191432332
+      tilemap final genocida_7: 271663920
+      tilemap final genocida_70: 1308527392
+      tilemap final genocida_71: -304274510
+      tilemap final genocida_72: -512243798
+      tilemap final genocida_73: -1142432292
+      tilemap final genocida_74: 1201676687
+      tilemap final genocida_75: -803175934
+      tilemap final genocida_76: 1917913483
+      tilemap final genocida_77: -1938504736
+      tilemap final genocida_78: 855546073
+      tilemap final genocida_79: -1426002709
+      tilemap final genocida_8: -1451865729
+      tilemap final genocida_80: -911108674
+      tilemap final genocida_81: -1814015627
+      tilemap final genocida_82: -1769271062
+      tilemap final genocida_83: 1353575963
+      tilemap final genocida_84: -528433499
+      tilemap final genocida_85: -1777456355
+      tilemap final genocida_86: 1397665132
+      tilemap final genocida_87: 1418309404
+      tilemap final genocida_88: 342455847
+      tilemap final genocida_89: -1086290409
+      tilemap final genocida_9: 1247819085
+      tilemap final genocida_90: -1974838233
+      tilemap final genocida_91: -1667617580
+      tilemap final genocida_92: -1331710522
+      tilemap final genocida_93: -2004980690
+      tilemap final genocida_94: 695927810
+      tilemap final genocida_95: -647037840
+      tilemap final genocida_96: 293956622
+      tilemap final genocida_97: 1051393088
+      tilemap final genocida_98: 578649877
+      tilemap final genocida_99: -124408957
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

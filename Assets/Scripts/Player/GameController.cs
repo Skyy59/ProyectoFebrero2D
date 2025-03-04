@@ -8,7 +8,16 @@ public class GameController : MonoBehaviour
     Vector2 Checkpointpos;
     public SpriteRenderer sprRender;
     public Rigidbody2D Rb;
+    public GameObject Transition;
 
+    AudioManager audioManager;
+    
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        
+    }
 
     void Start()
     {
@@ -27,7 +36,8 @@ public class GameController : MonoBehaviour
     #region METHODS
     void Die()
     {
-        StartCoroutine(Respawn(0.5f));
+        audioManager.PlaySFX(audioManager.death);
+        StartCoroutine(Respawn(0.7f));
     }
 
     public void UpdateCheckpoint(Vector2 pos)

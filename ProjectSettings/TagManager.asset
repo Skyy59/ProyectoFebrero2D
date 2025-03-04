@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Obstacle
+  - Proyectil
+  - Audio
   layers:
   - Default
   - TransparentFX
@@ -15,8 +17,8 @@ TagManager:
   - 
   - Environment
   - Wall
-  - 
-  - 
+  - Boton
+  - Proyectil
   - 
   - 
   - 

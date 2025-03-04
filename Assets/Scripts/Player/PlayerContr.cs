@@ -58,6 +58,13 @@ public class PlayerContr : MonoBehaviour
     [SerializeField] private Vector2 WCheckSize = new Vector2(0.08f, 0.7f);
     [SerializeField] private LayerMask Walls;
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     #endregion
     void Update()
     {
@@ -73,6 +80,7 @@ public class PlayerContr : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift) && dash)
         {
             StartCoroutine(Dash());
+            audioManager.PlaySFX(audioManager.Dash);
         }
         #endregion
 
@@ -130,6 +138,8 @@ public class PlayerContr : MonoBehaviour
         {
             cAnimator.SetBool("isWallJumping", false);
         }
+
+
         #endregion 
     }
 
@@ -248,7 +258,7 @@ public class PlayerContr : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jBufferCounter = jumpBufferTime;
-            
+            audioManager.PlaySFX(audioManager.jump);
         }
         else
         {
